@@ -6,6 +6,7 @@
     z-index: 100;
     position: relative;
 }
+
 #ontop {
     position: fixed;
     z-index: 100;
@@ -15,22 +16,56 @@
     padding-right: 1%;
 }
 
+#home {
+    margin: 35% 0 0 5%;
+    color: black;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
 .row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 #title {
-	font-size: 800%;
-	margin: 3% 0 5% 5%;
+    font-size: 800%;
+    margin: 3% 0 5% 5%;
 }
 
 .cutouts {
-	margin: 5% 0 5% 0;
+    margin: 5% 0 5% 0;
+    padding: 0 0 0 0;
+}
+
+.cutouts:hover {
+    opacity: 0.9;
+}
+
+#img1 {
+    z-index: 1;
+    position: absolute;
+    margin-left: 10%;
+}
+
+#img2 {
+    z-index: 2;
+    position: absolute;
+    margin-left: 20%;
+}
+
+#img3 {
+    z-index: 3;
+    position: absolute;
+    margin-left: 30%;
 }
