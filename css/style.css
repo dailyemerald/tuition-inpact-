@@ -41,7 +41,9 @@
     font-size: 18px;
 }
 
-
+#elle {
+    margin: 5% 0 0 5%;
+}
 
 .row.no-gutters {
     margin-right: 0;
