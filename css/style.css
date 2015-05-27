@@ -7,6 +7,16 @@
     position: relative;
 }
 
+#emerald {
+  padding: 10% 0 0 2%;
+}
+
+@media (max-width: 600px) {
+    #emerald {
+      padding: 30% 0 0 25%;
+    }
+}
+
 #ontop {
     position: fixed;
     z-index: 100;
@@ -21,11 +31,17 @@
     color: black;
     text-align: center;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     border-radius: 5%;
 }
+
+.body {
+    font-size: 18px;
+}
+
+
 
 .row.no-gutters {
     margin-right: 0;
@@ -39,8 +55,17 @@
 }
 
 #title {
-    font-size: 800%;
-    margin: 3% 0 5% 5%;
+    font-size: 700%;
+    margin: 5% 0 5% 12%;
+    line-height: 100%;
+}
+
+@media (max-width: 600px) {
+    #title {
+      margin: 10% 0 10% 12%;
+      line-height: 85%;
+    }
+
 }
 
 .cutouts {
@@ -69,3 +94,17 @@
     position: absolute;
     margin-left: 30%;
 }
+
+.story {
+  position: relative;
+  margin: 24% 0 0 0;
+  width: 100%;
+
+}
+
+@media (max-width: 600px) {
+    .story {
+      margin: 65% 0 0 0;
+    } 
+}
+
