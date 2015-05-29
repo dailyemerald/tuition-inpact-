@@ -75,9 +75,8 @@
     padding: 0 0 0 0;
 }
 
-.images:after {
-    background:rgba(0,0,0,0.6);
-    opacity:0;
+.images {
+    width: 100%;
 }
 
 .cutouts {
@@ -86,6 +85,12 @@
 
 .cutouts:hover {
     -webkit-filter: brightness(100%);
+}
+
+@media (max-width: 600px) {
+    .cutouts {
+        width: 100%;
+    }
 }
 
 #img1 {
