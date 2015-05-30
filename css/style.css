@@ -117,3 +117,21 @@
     } 
 }
 
+.buttons {
+    margin: 0 0 0 23.5%;
+}
+
+.btn {
+    margin: 0 0 0 5%;
+}
+
+.sho {
+    display: none;
+}
+
+.bucket {
+    float: left;
+    margin: 0 0 0 13%;
+}
+
+

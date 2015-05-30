@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title> The Cost </title>
 </head>
 
@@ -33,16 +33,45 @@
             <p id="title"> The Cost </p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-1 col-sm-1 col-xs-1"></div>
-        <div class="col-md-7 col-sm-10 col-xs-10 body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec rhoncus arcu. Phasellus ut purus ultricies, facilisis turpis nec, pharetra purus. Nulla in nulla erat. Nunc metus massa, varius eget rutrum interdum, euismod quis ligula. Pellentesque vehicula sit amet lacus luctus elementum. Aliquam pharetra sed nisl vel lacinia. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse laoreet dui at augue vestibulum consequat. Maecenas elementum, mi sed viverra aliquet, massa nisi congue sem, vel mattis eros ante sit amet augue. Morbi pulvinar elementum enim, et consectetur neque tincidunt id. Proin interdum, lectus id dignissim imperdiet, libero nisl lacinia purus, quis tempus orci lorem sit amet urna. Proin euismod cursus feugiat. Morbi sagittis quis orci condimentum tristique. Donec venenatis libero ut libero molestie auctor.
-            <br>
-            <br> Donec vel purus tristique massa finibus egestas et id diam. Cras non lacus porttitor, faucibus lacus eget, placerat tellus. Mauris lacinia diam ut placerat ullamcorper. Proin molestie congue turpis et tempor. Praesent id convallis purus. Suspendisse euismod justo non mollis auctor. Phasellus facilisis scelerisque turpis. Fusce felis massa, aliquet id fermentum a, tempus at quam. Nunc convallis vulputate leo et pulvinar. Fusce at orci turpis. Mauris eget elit justo. Praesent aliquam fermentum nibh.
-            <br>
-            <br> Proin lectus metus, gravida in varius non, condimentum dapibus nunc. Maecenas tristique eros vel mi sagittis bibendum. Sed eget urna sed lectus feugiat pretium. Donec ligula velit, scelerisque id feugiat eget, dictum at magna. Suspendisse aliquet, sem a faucibus gravida, tortor felis facilisis leo, non pellentesque nunc enim sed risus. Donec aliquam magna ut ante interdum, nec molestie leo hendrerit. Aenean vel mauris facilisis, egestas turpis vel, congue magna. Morbi congue tellus non tempus molestie. Vivamus scelerisque sollicitudin orci id suscipit. Praesent bibendum orci libero, nec molestie mi gravida vitae. Donec sed massa varius, efficitur erat at, pharetra purus. Nulla dignissim vel lectus vitae mattis. Aliquam at convallis leo. Nunc vel purus pharetra, tincidunt magna ultrices, tristique velit. Nullam felis lectus, dictum eu feugiat ut, placerat tincidunt mi. Curabitur iaculis lorem vitae aliquam blandit.
+    <div class="container">
+        <div class="col-md-2 col-sm-1 col-xs-1"></div>
+        <div class="buttons">
+            <button class="btn" id="b1">5,000</button>
+            <button class="btn" id="b2">15,000</button>
+            <button class="btn" id="b3">24,000</button>
+            <button class="btn" id="b4">32,000</button>
+            <button class="btn" id="b5">48,000</button>
         </div>
- </div>
+    </div>
+    <div class="container">
+            <div class="bucket" id="one">
+            <h3>Hours Worked</h3>
+            <div class="sho" id="hrwkd1">540.54</div>
+            <div class="sho" id="hrwkd2">1,621.62</div>
+            <div class="sho" id="hrwkd3">2,594.59</div>
+            <div class="sho" id="hrwkd4">3,459.45</div>
+            <div class="sho" id="hrwkd5">5,189.18</div> 
+            </div>
+ 
+            <div class="bucket" id="two">
+            <h3>Time Taken</h3> 
+            <div class="sho" id="tmtkn1">67.56 (8hr days)</div>
+            <div class="sho" id="tmtkn2">202.7 (8hr days)</div>
+            <div class="sho" id="tmtkn3">342.32 (8hr days)</div>
+            <div class="sho" id="tmtkn4">432.43 (8hr days)</div>
+            <div class="sho" id="tmtkn5">648.64 (8hr days)</div>
+            </div>
+ 
+            <div class="bucket" id="three">
+            <h3>What You Could Buy</h3>
+            <div class="sho" id="cldby1"></div>
+            <div class="sho" id="cldby2"></div>
+            <div class="sho" id="cldby3"></div>
+            <div class="sho" id="cldby4"></div>
+            <div class="sho" id="cldby5"></div> 
+            </div>
+    </div>
+
  <div class="images">
     <a class="cutouts" id="img1" href="story1.html"><img src="img/cut1.png"></a>
     <a class="cutouts" id="img2" href="story2.html"><img src="img/cut2.png"></a>
@@ -52,6 +81,8 @@
 <div>
     <p style="text-align:center; padding: 55% 0 0 0; color: #C1C1C1;"> Design <a class="twitHan" style="color: #C1C1C1; text-decoration: none;" href="https://twitter.com/DavidBaggs" target="_blank"> @DavidBaggs</a> | Web Development<a class="twitHan" href="https://twitter.com/Sierra_morgann" style="color: #C1C1C1; text-decoration: none;" target="_blank"> @Sierra_morgann </a></p>
 </div>
+    <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -67,7 +98,6 @@
     ga('create', 'UA-56398960-1', 'auto');
     ga('send', 'pageview');
     </script>
-    <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 
