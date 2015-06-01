@@ -71,27 +71,24 @@
 
 }
 
+.time {
+    text-align: center;
+}
+
+.time p {
+    font-size: 12px;
+}
+
 .cutouts {
     -webkit-filter: brightness(50%);
     float: left;
-    margin: 0 0 5% 3.5%;
+    margin: 0 0 5% 4.5%;
 }
 
 .cutouts:hover {
     -webkit-filter: brightness(100%);
 }
 
-#img1 {
-    z-index: 1;
-}
-
-#img2 {
-    z-index: 2;
-}
-
-#img3 {
-    z-index: 3;
-}
 
 @media (max-width: 600px) {
     .story {
@@ -109,17 +106,20 @@
 }
 
 .buttons {
-    margin: 0 0 8% 0;
+    margin: 0 0 3.2% 0;
 }
 
 .sho {
     display: none;
+    text-align: center;
+    font-size: 24px;
 }
 
 .bucket {
     float: left;
-    margin: 0 0 0 13%;
-    height: 350px;
+    padding: 6.5%;
+    width: 33.33%;
+    height: 450px;
 }
 
 .cred {
