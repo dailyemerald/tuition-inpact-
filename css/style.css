@@ -7,6 +7,11 @@
     position: relative;
 }
 
+@media (max-width: 990px) {
+    .share-buttons img {
+        width: 38%;
+    }
+
 #emerald {
   padding: 10% 0 0 2%;
 }
@@ -39,6 +44,7 @@
 
 .body {
     font-size: 18px;
+    margin: 15% 0 5% 4%;
 }
 
 #elle {
@@ -62,6 +68,10 @@
     line-height: 100%;
 }
 
+.btn:focus {
+    outline: none !important;
+}
+
 @media (max-width: 600px) {
     #title {
       margin: 25% 0 10% 10%;
@@ -83,6 +93,7 @@
     -webkit-filter: brightness(50%);
     float: left;
     margin: 0 0 5% 4.5%;
+    text-align: center;
 }
 
 .cutouts:hover {
@@ -94,11 +105,6 @@
     .story {
       margin: 65% 0 0 0;
     } 
-
-    .btn {
-      float: left;
-      margin: 5% 0 5% 2.5%;
-    }
 }
 
 .btn {
@@ -122,6 +128,10 @@
     height: 550px;
 }
 
+.cap {
+    font-size: 18px;
+}
+
 .cred {
     display: inline-block;
     margin: 0 0 0 35%;
@@ -131,4 +141,49 @@
     .cred {
         margin: 0 0 0 5%;
     }
-}    
+
+    .bucket {
+        padding: 1%;
+        height: 350px;
+        float: left;
+    }
+
+    #one, #two {
+        padding: 0 0 3px 0; 
+    }
+
+    .time p {
+        font-size: 10px;
+    }
+
+    .sho {
+        font-size: 12px;
+    }
+
+    .cap {
+        margin: 0 0 0 2%;
+    }
+
+    #elle {
+        margin: 15% 0 10% 1.5%;
+    }
+
+    .body {
+        margin: 13% 0 0 1.5%;
+    }
+
+}  
+
+.slide {
+    
+    height: 650px;
+}
+
+a {
+    text-decoration: none !important; 
+}
+
+a:hover {
+    color: black !important;
+}
+
