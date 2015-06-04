@@ -61,10 +61,13 @@
     padding-left: 0;
 }
 
-#title {
+.title {
     font-size: 700%;
-    margin: 5% 0 5% 12%;
-    line-height: 100%;
+    margin: 5% 0 3% 0;
+}
+
+#smaller {
+    margin: 3% 0 0 0;
 }
 
 .btn:focus {
