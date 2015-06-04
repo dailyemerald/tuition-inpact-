@@ -75,10 +75,8 @@
 }
 
 @media (max-width: 600px) {
-    #title {
-      margin: 25% 0 10% 10%;
-      line-height: 85%;
-      font-size: 80px;
+    .title {
+      margin: 5% 0 5% 0;
     }
 
     #home {
