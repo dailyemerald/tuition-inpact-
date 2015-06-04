@@ -110,6 +110,12 @@
     .story {
       margin: 65% 0 0 0;
     } 
+
+    .video {
+        height: 350px;
+        width: 550px;
+        margin: 53% 0 25% 0;
+    }
 }
 
 .btn {
