@@ -45,7 +45,7 @@
 
 .body {
     font-size: 18px;
-    margin: 15% 0 5% 4%;
+    margin: 5% 0 5% 4%;
 }
 
 #elle {
@@ -80,6 +80,11 @@
       font-size: 80px;
     }
 
+    #home {
+        width: 125%;
+        background-color: none;
+    }
+
 }
 
 .time {
@@ -93,7 +98,7 @@
 .cutouts {
     -webkit-filter: brightness(50%);
     float: left;
-    margin: 0 0 5% 4.5%;
+    margin: 0 0 0 4.5%;
     text-align: center;
 }
 
@@ -119,7 +124,7 @@
     float: left;
     padding: 6.5%;
     width: 33.33%;
-    height: 550px;
+    height: 450px;
 }
 
 .cap {
@@ -129,6 +134,10 @@
 .cred {
     display: inline-block;
     margin: 0 0 0 35%;
+}
+
+.vidzwrapper {
+
 }
 
 @media (max-width: 600px) {
