@@ -23,6 +23,11 @@
     }
 }
 
+#byline {
+    font-size: 16px;
+    margin: 2% 0 2% 5%;
+}
+
 #ontop {
     position: fixed;
     z-index: 100;
