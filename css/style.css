@@ -146,6 +146,14 @@
         padding: 0 0 0 0; 
     }
 
+    #three p {
+        padding: -5% 0 0 0; 
+    }
+
+    .time h3 {
+        font-size: 18px;
+    }
+
     .time p {
         font-size: 10px;
     }
