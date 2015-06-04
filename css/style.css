@@ -38,10 +38,7 @@
     text-align: center;
     background-color: white;
     opacity: 0.5;
-    width: 100%;
-    height: 100%;
     border-radius: 5%;
-    width: 100%;
 }
 
 .body {
@@ -135,10 +132,6 @@
 .cred {
     display: inline-block;
     margin: 0 0 0 35%;
-}
-
-.vidzwrapper {
-
 }
 
 @media (max-width: 600px) {
